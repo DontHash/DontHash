@@ -1,37 +1,25 @@
-### Hi, I'm **DontHash**
+### Hi, I'm Bhishma Bhandari
 
-I build **local-first Python tools** — ML pipelines, media automation, and experiments I actually use.
+Final-year Computer Engineering student at Kathmandu University (graduating Feb 2027), based in Nepal. I build speech, OCR and search tools for Nepali, plus the Python and TypeScript apps around them. I'm looking for software and applied-AI internships.
 
----
-
-#### Focus
-
-**[ClipClipper](https://github.com/DontHash/Optimized-AI-ShortsGenerator)** — YouTube clip-finding engine. Download with yt-dlp, transcribe with Whisper, rank moments with OpenAI/Gemini plus replay heatmaps, audio energy, and chapters. Output is ranked **`clips.json`**; optional ffmpeg cuts at source aspect ratio.
-
-```bash
-pip install -r requirements.txt
-python main.py "https://www.youtube.com/watch?v=VIDEO_ID" --num-clips 5
-```
+📫 bhishma078@gmail.com · [LinkedIn](https://www.linkedin.com/in/bhishma-bhandari-770a72215/) · [Hugging Face](https://huggingface.co/DontHash)
 
 ---
 
-#### Other projects
+#### Featured
 
-| Repo | Notes |
-|------|--------|
-| [Optimized-AI-ShortsGenerator](https://github.com/DontHash/Optimized-AI-ShortsGenerator) | ClipClipper — viral moment finder for long-form YouTube |
-| [crispy-pannacotta](https://github.com/DontHash/crispy-pannacotta) | Snippets, drafts, and references |
-| [NepaliMusicRecommendation](https://github.com/DontHash/NepaliMusicRecommendation) | Music recommendation work |
-| [RayMozic](https://github.com/DontHash/RayMozic) | Side project |
+| Project | What it is |
+|---|---|
+| [**neptrans-asr**](https://github.com/DontHash/neptrans-asr) | Nepali and Nepali–English code-switching speech recognition. Whisper large-v3 LoRA fine-tune on 49.1 h of curated speech, 19.24% CER on a 625-clip internal test. Runs locally with faster-whisper; [weights on Hugging Face](https://huggingface.co/DontHash/neptrans-v4-ct2). |
+| [**VeriScript**](https://github.com/DontHash/VeriScript) | Offline document restoration for Devanagari: photo/scan in, searchable PDF/Word/text out, with review flags. Flutter Android app plus a desktop OCR pipeline with a trained CRNN reader. |
+| [**NepaliMusicRecommendation**](https://github.com/DontHash/NepaliMusicRecommendation) | Project R: lyric-fragment search across Nepali songs in Romanized or Devanagari script. Hybrid BM25 + dense retrieval, a Roman→Devanagari character Transformer (7.47% CER on 208 reviewed lines), schema-validated datasets with CI checks. |
+| [**laya-nepali**](https://github.com/DontHash/laya-nepali) | Fast intent classification for Nepali/NepGlish conversational commerce: the decision layer for my WhatsApp/Instagram ordering workflow (DropFlow, pre-deployment). |
+| [**plant-disease-detection-guided-projects**](https://github.com/DontHash/plant-disease-detection-guided-projects) | Guided beginner notebooks I prepared while mentoring students at Coding for Social Good Nepal: sensor, RGB-image and visible/NIR approaches. |
+
+Also: [Optimized-AI-ShortsGenerator](https://github.com/DontHash/Optimized-AI-ShortsGenerator) (ClipClipper, my extended fork that ranks clip moments with Whisper, replay heatmaps and LLMs) · [Malaria detection](https://github.com/DontHash/Malariaaaa) · [EmoSense](https://github.com/Emo-Sense/EmoSense) (team project)
 
 ---
 
 #### Stack
 
-Python · ffmpeg · yt-dlp · faster-whisper · OpenAI / Gemini · numpy
-
----
-
-<p align="left">
-  <a href="https://github.com/DontHash/Optimized-AI-ShortsGenerator"><img alt="ClipClipper repo" src="https://img.shields.io/static/v1?label=ClipClipper&message=star%20on%20GitHub&color=2ea043&logo=github"></a>
-</p>
+Python · PyTorch · Transformers/PEFT · Whisper · OpenCV · FastAPI · TypeScript · Next.js · Flutter · PostgreSQL/Supabase · Docker · GitHub Actions
